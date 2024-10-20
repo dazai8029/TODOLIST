@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50px;
+  font-style: normal;
+
+
+
+}
+
+.landing-page{
+    background: linear-gradient(to bottom , #141e30, #2b425e);
+    height: 100vh;
+    
+}
+
+.nav-bar
+{
+    background-color: #2c3e505d;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.2);
+    height: 75px;
+    transition: all ease-in-out 1s;
+}
+.nav-bar:hover{
+    box-shadow: 0 13px 18px rgba(275, 275, 275, 0.5);
+}
+
+.nav-list
+{
+   
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+
+.nav-list .nav-ele:first-child
+{
+    margin-right: auto;   
+}
+#logo{
+    background-color: transparent;
+    font-size: 35px;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.nav-ele{
+    margin-top: 15px;
+}
+
+.nav-ele a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 40px;
+    padding-right: 40PX;
+    background-color: black;
+    margin: 15px;
+    text-align: center;  
+    border-radius: 50px;  
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+.nav-ele a:hover{
+border: 2px solid black;
+color: black;
+background-color: transparent;
+font-weight: bold;
+}
+
+.main-box 
+{
+display: flex;
+justify-content: center;
+align-items:center;
+}
+.sub-box{
+    margin-top: 100px;
+    height: 750px;
+    width: 700px;
+    background: rgb(240, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: -20px 20px 25px rgba(0, 0, 0, 0.3);
+    transition: all  2s;
+    
+}
+.sub-box:hover{
+    box-shadow: -15px 15px 20px rgba(151, 150, 150, 0.378);
+}
+
+ul li{
+    list-style: none;
+}
+
+
+.sub-box div{
+    margin-top: 50px;
+}
+.sub-box div input{
+border: none;
+background-color: rgb(255, 250, 243);
+width: 250px;
+height: 50px;
+border: 2px solid black;
+border-radius: 30px;
+}
+
+.sub-box div button{
+    letter-spacing: 2px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0);
+    transition: 0.2s ;
+    cursor: pointer;
+    transition: all ease 1s;
+
+}
+.sub-box div button:hover{
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid gray;
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+}
+
+.list li{
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+
+.list span{
+    position: absolute;
+    right: 680px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: bal;
+}
+.list span:hover{
+    background-color: rgb(213, 217, 219);
+}
+
+#text{
+padding-left:25px ;
+font-size: 20px;
+
+}
+
+.sub-box  p
+{
+
+ font-size: 50px;   
+ border-bottom: 2px solid black;
+}
